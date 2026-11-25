@@ -13,10 +13,9 @@ import {
   X,
 } from 'lucide-react';
 
-const portrait = '/images/1770921807021.png';
-const profilePhoto = '/images/128a160e-0b58-46fb-8409-dc036839e700.jpeg';
-const resume = '/documents/Laeba_Resume_ATS_(1).pdf';
-
+const portrait = import.meta.env.BASE_URL + 'images/1770921807021.png';
+const profilePhoto = import.meta.env.BASE_URL + 'images/128a160e-0b58-46fb-8409-dc036839e700.jpeg';
+const resume = import.meta.env.BASE_URL + 'documents/Laeba_Resume_ATS_(1).pdf';
 const projects = [
   {
     id: '01',
